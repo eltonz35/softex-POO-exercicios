@@ -14,10 +14,16 @@ A classe "Aluno" deve ter um atributo adicional chamado "matricula".
 Crie um objeto chamado "aluno1" que seja um aluno e imprima no console.
  */ 
 
+/**
+Modifique a classe "Pessoa" para que o atributo "idade" seja privado.
+Crie métodos getters e setters para acessar e alterar o valor da idade,
+respeitando o encapsulamento.
+ */
+
 class Pessoa {
     constructor(nome, idade) {
         this.nome = nome;
-        this.idade = idade;
+        _this.idade = idade;
     }
     apresentar() {
         console.log("Nome: " + this.nome, "idade: " + this.idade);
